@@ -1,0 +1,4 @@
+Add the following line to ~/.bashrc:
+
+export TERM=screen-256color
+
