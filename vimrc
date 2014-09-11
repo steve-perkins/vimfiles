@@ -2,6 +2,8 @@ execute pathogen#infect()
 
 colorscheme zenburn
 set guifont=Droid\ Sans\ Mono\ 11
+" MS-Windows version
+"set guifont=Droid_Sans_Mono:h10
 
 ".vimrc file - Save this file as .vimrc in your home directory. (e.g. /home/user/.vimrc)
 
