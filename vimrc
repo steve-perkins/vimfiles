@@ -1,9 +1,9 @@
 execute pathogen#infect()
 
 colorscheme zenburn
-set guifont=Droid\ Sans\ Mono\ 11
+set guifont=Droid\ Sans\ Mono\ 9
 " MS-Windows version
-"set guifont=Droid_Sans_Mono:h10
+"set guifont=Droid_Sans_Mono:h9
 
 ".vimrc file - Save this file as .vimrc in your home directory. (e.g. /home/user/.vimrc)
 
@@ -14,11 +14,12 @@ set guifont=Droid\ Sans\ Mono\ 11
 "-- General --
 set number      "Show line numbers
 set ruler       "Show the line and column number of the cursor position
+set nobackup	"Disable '~' backup files (enabled by default on Windows)
 
 "-- Programming --
 set autoindent      "Copy indent from current line when starting a new line
 set smartindent     "Do smart indenting when starting a new line. Works with supported c-like languages
-syntax on
+syntax on			"Enable syntax highlighting for supported file formats
 
 "-- Spaces/Tabs --
 set noexpandtab     "Strictly use tabs when tab is pressed (this is the default)
