@@ -28,5 +28,5 @@ export TERM=screen-256color
 
 # Misc
 
-* To enable autocompletion for Go, compile the `gocode` utility (`https://github.com/nsf/gocode`) and put in your system PATH.
-
+* To enable autocompletion for Go, compile the `gocode` utility and put it in your system PATH (`go get -u -ldflags -H=windowsgui github.com/nsf/gocode` on Windows, `go get -u github.com/nsf/gocode` on everything else).
+* While you're at it, also compile and add to your PATH the `oracle` Go analysis tool (`go get code.google.com/p/go.tools/cmd/oracle`).
